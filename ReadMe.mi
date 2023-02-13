@@ -9,3 +9,6 @@
 - `docker ps` displays  running containers 
 # Create Docker image from this docker project
 - `docker build -t hello-docker` build docker image from docker file `-t` stands for `tag` that give the image tag name so it followed by the image name `hello-docker` and then `.` refers to this folder
+- at that moment we get that error `failed to solve with frontend dockerfile.v0: failed to read dockerfile: open /var/lib/docker/tmp/buildkit-mount228675408/Dockerfile: no such file or directory` that is because we didnot create the docker file yet.
+- the steps begins by creating `docker file` which is `blueprint for building docker image` then creating `docker image` which is `a template based that docker file read only for running the container` then the `docker container` which is an `application running process`.
+- 
