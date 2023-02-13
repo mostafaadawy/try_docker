@@ -40,4 +40,4 @@ CMD ["python", "main.py"]
 - from  docker images we can see that every image has name and id if we want to deal with any image we can deal with its name or id
 - delete the image using `docker image rm a0264f5a256e`
 - because the image is running so it must be forced to delete `docker image rm a0264f5a256e -f`
-# Using more than one image just that one for db and other for the backed needs docker compose this will be completed in the [second project]()
+# Using more than one image just that one for db and other for the backed needs docker compose this will be completed in the [second project](https://github.com/mostafaadawy/composejangodock)
