@@ -12,6 +12,6 @@
 - at that moment we get that error `failed to solve with frontend dockerfile.v0: failed to read dockerfile: open /var/lib/docker/tmp/buildkit-mount228675408/Dockerfile: no such file or directory` that is because we didnot create the docker file yet.
 - the steps begins by creating `docker file` which is `blueprint for building docker image` then creating `docker image` which is `a template based that docker file read only for running the container` then the `docker container` which is an `application running process`.
 - so to solve this issue we create `DockerFile`
-- it doesn't matter to name it dockerfile or DockerFile or even dockerfile
+- it doesn't matter to name it dockerfile or even Dockerfile
 - write inside the dockerfile `FROM python:3` that means the from docker images use the images for language python and we note that after we write it we will find that it will be clickable and if we click ctrl anf click on python it will redirect to all images on docker site that we can use
 - 
