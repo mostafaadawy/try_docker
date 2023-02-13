@@ -29,3 +29,4 @@ CMD ["python", "main.py"]
 - `COPY` will copy the code inside our project folder `.` to the path of the application wich will be the created folder in the previous line of the docerfile code
 - `CMD []` will make this file executable
 - Note that the left hand side command in capital and vscode will allow autocomplete and some of this command clickable to help complete it
+- test by check the docker images `docker images`
