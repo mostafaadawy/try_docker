@@ -14,4 +14,18 @@
 - so to solve this issue we create `DockerFile`
 - it doesn't matter to name it dockerfile or even Dockerfile
 - write inside the dockerfile `FROM python:3` that means the from docker images use the images for language python and we note that after we write it we will find that it will be clickable and if we click ctrl anf click on python it will redirect to all images on docker site that we can use
-- 
+- check the code
+```sh
+FROM python:3
+RUN mkdir /usr/src/app/
+WORKDIR /usr/src/app/
+COPY . /usr/src/app/
+CMD ["python", "main.py"]
+```
+# Explanation of the file
+- first from defines the image where we use image with python installed
+- `RUN` after it we write terminal command 
+- `WORKDIR` defines the application path we can think it where we will find the application in linux os that will be created
+- `COPY` will copy the code inside our project folder `.` to the path of the application wich will be the created folder in the previous line of the docerfile code
+- `CMD []` will make this file executable
+- Note that the left hand side command in capital and vscode will allow autocomplete and some of this command clickable to help complete it
