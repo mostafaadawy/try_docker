@@ -37,3 +37,5 @@ CMD ["python", "main.py"]
 - the container here is our application 
 - we can run our container also from the docker desktop
 - `docker ps -a`  well show all containers running and not running
+- from  docker images we can see that every image has name and id if we want to deal with any image we can deal with its name or id
+- 
