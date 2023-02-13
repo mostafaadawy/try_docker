@@ -1,0 +1,6 @@
+# Docker Tutorial Windows 
+- for running docker desktop we need to [install](https://learn.microsoft.com/en-us/windows/wsl/install) wsl from microsoft to allow virtual environments
+- [install](https://www.docker.com/) docker desktop contains all its dependencies 
+- we should have account on docker just like github
+- we use docker hub that contains our published repos
+- 
