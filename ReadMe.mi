@@ -4,3 +4,7 @@
 - we should have account on docker just like github
 - we use docker hub that contains our published repos
 - [docker hub](https://www.docker.com/products/docker-hub/) is the world’s leading service for finding and sharing container images with your team and the Docker community 
+- for testing we created new project folder and create main.py python file
+- `docker images` shows current installed images 
+- `docker ps` displays  running containers 
+- 
