@@ -7,4 +7,5 @@
 - for testing we created new project folder and create main.py python file
 - `docker images` shows current installed images 
 - `docker ps` displays  running containers 
-- 
+# Create Docker image from this docker project
+- `docker build -t hello-docker` build docker image from docker file `-t` stands for `tag` that give the image tag name so it followed by the image name `hello-docker` and then `.` refers to this folder
