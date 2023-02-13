@@ -30,3 +30,6 @@ CMD ["python", "main.py"]
 - `CMD []` will make this file executable
 - Note that the left hand side command in capital and vscode will allow autocomplete and some of this command clickable to help complete it
 - test by check the docker images `docker images`
+# run
+- as our docker image is called `hello-docker`
+- we can run the dockerimage  by `docker run hello-docker`
